@@ -6,15 +6,18 @@ function UserList() {
     <>
       <h1>User List</h1>
       <ul>
-        <Link to="/users/1">
-          <li>User 1</li>
-        </Link>
-        <Link to="/users/2">
-          <li>User 2</li>
-        </Link>
-        <Link to="/users/3">
-          <li>User 3</li>
-        </Link>
+        <li>
+          <Link to="/users/1">User 1</Link>
+        </li>
+        <li>
+          <Link to="/users/1">User 2</Link>
+        </li>
+        <li>
+          <Link to="/users/1">User 3</Link>
+        </li>
+        <li>
+          <Link to="/users/1">User 4</Link>
+        </li>
       </ul>
     </>
   );
