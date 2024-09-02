@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import "./../styles/App.css";
-import UserList from "./UserList";
 import UserDetails from "./UserDetails";
+import UserList from "./UserList";
 
 const App = () => {
+  // const [data, setData] = useState([]);
+
   return (
     <div>
       {/* Do not remove the main div */}
